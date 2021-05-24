@@ -4,3 +4,35 @@ position: absolute;
 right: 1%;
 top: 1%;  
 }
+
+.img-responsive{
+  width: 100px;
+  height:100px;
+  transition: width 0.5s ,height 0.5s; 
+  
+}
+.img-wrapper :hover{
+  width:110px;
+  height: 110px;
+}
+.count{
+  position: absolute;
+    top: 0px;
+    right: 7px;
+    background-color: red;
+    padding: 12px;
+    height: 31px;
+    width: 32px;
+    border-radius: 50%;
+    z-index: 1;
+    color: #fff;
+    transition: height 0.5s,width  0.5s;
+    transition-delay: 0.5s;
+    transition-timing-function: ease-out;
+}
+.count:hover{
+  padding: 6px;
+  height: 55px;
+  width: 55px;
+  
+}
